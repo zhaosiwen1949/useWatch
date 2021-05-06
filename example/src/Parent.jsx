@@ -2,10 +2,12 @@ import React, { useCallback } from 'react';
 import useWatch from './useWatch';
 import Children from './Children';
 
-export default function Parent () {
+export default function Parent ({onWatchState}) {
     const state1 = useWatch();
     const state2 = useWatch();
     const state3 = useWatch();
+
+    onWatchState([state1, state2, state3]);
     
     const handleSubmit = useCallback(() => {
         console.log("第一个是：", state1.getValue());

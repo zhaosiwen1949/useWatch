@@ -14,6 +14,7 @@ export default function useWatch() {
     const state = {
         getValue: null,
         watchValue: useWatchValue,
+        onWatchState: null,
     }
     return state;
 };
