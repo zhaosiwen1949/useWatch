@@ -1,0 +1,10 @@
+{
+  "name": "use-watch",
+  "version": "0.0.1",
+  "description": "a simple React state management library",
+  "main": "index.js",
+  "repository": "git@github.com:zhaosiwen1949/useWatch.git",
+  "author": "caoyasong <caoyasong1949@163.com>",
+  "license": "MIT",
+  "private": false
+}
